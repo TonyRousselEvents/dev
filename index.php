@@ -198,7 +198,7 @@ for ($i = 0; $i < count($galleryImages); $i++) {
 
 <nav>
     <div class="nav-content">
-        <a href="index.php#home"><img src="logook.png" alt="ASE Events" class="logo" width="220" height="60" loading="eager"></a>
+        <a href="index.php#home"><img src="logook.png" alt="ASE Events" class="logo" loading="eager"></a>
         <div class="nav-links" id="navLinks">
             <a href="index.php#home">Accueil</a>
             <a href="index.php#about">Qui sommes-nous ?</a>
@@ -224,7 +224,7 @@ for ($i = 0; $i < count($galleryImages); $i++) {
     <?php endif; ?>
     <div class="hero-content">
         <img src="logook.png" alt="ASE Events Logo - DJ Mariage Professionnel depuis plus de 20 ans"
-             class="hero-logo" width="400" height="200" loading="eager" fetchpriority="high">
+             class="hero-logo" loading="eager" fetchpriority="high">
         <h1>ASE EVENTS</h1>
         <p>DJ Mariage Haut de Gamme & Animation Événementielle</p>
         <p style="font-size:1.2rem; margin-bottom:2.5rem;">Votre DJ mariage professionnel depuis plus de 20 ans à Sartrouville (78) et partout en France</p>
@@ -238,7 +238,7 @@ for ($i = 0; $i < count($galleryImages); $i++) {
 <?php if ($promoImage): ?>
 <div class="promo">
     <a href="https://le-salon-du-mariage.fr/" target="_blank" rel="noopener">
-        <img src="<?php echo $promoImage; ?>" alt="Promotion ASE Events" loading="lazy" width="1400" height="400">
+        <img src="<?php echo $promoImage; ?>" alt="Promotion ASE Events" loading="lazy">
     </a>
 </div>
 <?php endif; ?>
@@ -364,7 +364,7 @@ for ($i = 0; $i < count($galleryImages); $i++) {
     <p>SIRET ASE Technologie : 920 977 618 00015 • Assuré MAAF Pro depuis plus de 15 ans sans incident</p>
     <p>ASE Events appartient au groupe ASE avec ASE Technologie</p>
     <a href="GED/assurance.pdf" target="_blank" rel="noopener">
-        <img src="https://www.capeb.fr/www/capeb/media/bas-rhin/image/MAAF%20PRO.jpg" alt="Assuré MAAF Pro" class="footer-logo" loading="lazy" width="150" height="60">
+        <img src="https://www.capeb.fr/www/capeb/media/bas-rhin/image/MAAF%20PRO.jpg" alt="Assuré MAAF Pro" class="footer-logo" loading="lazy">
     </a>
     <p style="margin-top:5px; font-size:0.85rem;">Attestation d'assurance téléchargeable en cliquant sur le logo MAAF PRO</p>
     <p style="margin-top:15px; font-size:0.85rem;">Votre DJ mariage pro en Île-de-France (95, 92, 78, 60) et Normandie (76, 27) – Déplacements toute France</p>
