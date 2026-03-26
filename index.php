@@ -117,7 +117,7 @@ for ($i = 0; $i < count($galleryImages); $i++) {
 
         nav { position: fixed; top: 0; left: 0; right: 0; background: rgba(13,13,13,0.95); color: var(--text-primary); z-index: 1000; padding: 1.2rem 5%; display: flex; justify-content: center; align-items: center; box-shadow: 0 4px 20px var(--shadow); }
         .nav-content { display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1400px; }
-        .logo { height: auto; max-height: 60px; max-width: 220px; width: auto; }
+        .logo { height: auto !important; width: auto !important; max-height: 60px; max-width: 220px; object-fit: contain; }
         .nav-links { display: flex; gap: 2.5rem; font-weight: 400; letter-spacing: 1px; }
         .nav-links a { color: var(--text-secondary); }
         .nav-links a:hover { color: var(--accent); }
@@ -175,7 +175,7 @@ for ($i = 0; $i < count($galleryImages); $i++) {
         button:hover { background: #e62a4a; transform: translateY(-3px); }
 
         footer { background: var(--bg-primary); color: var(--text-secondary); text-align: center; padding: 60px 20px; font-size: 0.95rem; line-height: 1.6; }
-        .footer-logo { max-height: 40px; margin: 15px auto; opacity: 0.9; }
+        .footer-logo { max-height: 40px; height: auto !important; width: auto !important; max-width: 200px; object-fit: contain; display: block; margin: 15px auto; opacity: 0.9; }
 
         @media (max-width: 768px) {
             .hamburger { display: flex; }
